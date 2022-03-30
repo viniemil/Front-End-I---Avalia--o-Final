@@ -1,0 +1,108 @@
+*,
+a {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body,
+html {
+  display: flex;
+  height: 100%;
+}
+
+p {
+  margin-left: 60px;
+}
+
+nav {
+  background-color: chocolate;
+  height: 100%;
+  border-right: 2px solid grey;
+  box-shadow: 2px 2px 2px rgb(0, 0, 0);
+}
+.image {
+  width: 240px;
+  height: 240px;
+  background-color: black;
+  border-radius: 50%;
+  margin-top: 120px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border: 3px solid grey;
+  background: url("../Image/foto_perfil.png");
+  background-size: 100%;
+  box-shadow: 2px 2px 2px black;
+}
+
+ul.descricao {
+  text-align: left;
+  margin-left: 60px;
+  margin-top: 200px;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 900;
+  text-shadow: 1px 1px 1px black;
+}
+
+ul.descricao > li {
+  margin: 40px;
+}
+
+ul {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 80px;
+  text-shadow: 1px 1px 1px black;
+}
+
+ul > a > li {
+  margin: 5px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+ul > a > li:hover {
+  background-color: rgb(219, 144, 90);
+  transition: 1s;
+  color: black;
+}
+
+#nome {
+  font-size: 50px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 150px;
+  text-shadow: 1px 1px 1px black;
+}
+
+#end {
+  margin-top: 5px;
+  font-weight: bold;
+  font-size: 20px;
+  text-shadow: 1px 1px 1px black;
+}
+
+#descricao {
+  margin-top: 80px;
+  font-weight: bold;
+  font-size: 23px;
+  text-shadow: 1px 1px 1px black;
+}
+
+img {
+  width: 50px;
+  margin: 5px;
+}
+
+img:hover {
+  width: 80px;
+  transition: 1s;
+}
+
+footer {
+  position: absolute;
+  bottom: 20%;
+  left: 20%;
+}
